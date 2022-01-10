@@ -1,0 +1,65 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+}
+
+.linkList {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+.containerMenu {
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../../img/header-texture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.userName {
+  display: block;
+  text-align: center;
+  font-size: large;
+}
+
+.userEmail {
+  display: block;
+  text-align: center;
+}
+
+.buttonExit {
+  width: 100px;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #ca4c4cd4;
+
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px #9f8413;
+}
+
+.section {
+  margin-top: 50px;
+  background-image: url(../../img/cat.jpg);
+  background-color: rgba(212, 127, 30, 0.938);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-content: center;
+  width: auto;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 155%;
+}

@@ -1,0 +1,47 @@
+.mainPageContainer {
+  margin-top: 50px;
+  padding: 50px;
+  background-image: url(../../img/texture.jpg);
+  border-radius: 100%;
+  box-shadow: 2px 4px 4px #9f8413;
+}
+
+.homePageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.button {
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 7px 15px;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  font-size: large;
+  color: #fff;
+  background-color: #cab24cdb;
+  border: solid 3px #cab24cdb;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px #9f8413;
+}
+
+.button:hover {
+  background-color: #cab24cdb;
+}
+
+.button:active {
+  background-color: #ffc31de3;
+  box-shadow: 2px 4px 4px #666;
+  transform: translateY(4px);
+}
+
+.button :last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+}
